@@ -101,11 +101,8 @@ async function clearSession () {
         </div>
         <div v-else class="text-2xl text-white flex flex-col gap-y-4 items-center justify-center h-full w-full pb-8">
           <h1 class="font-medium text-5xl">
-            欢迎来到 Phoebe 的图片库
+            Welcome to Phoebe Gallery
           </h1>
-          <p class="text-gray-400">
-            请登录后开始上传图片
-          </p>
         </div>
 
         <ul v-if="images && images.length" class="grid grid-cols-1 gap-4 lg:block">
