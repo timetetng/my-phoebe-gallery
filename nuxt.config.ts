@@ -11,9 +11,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   site: {
-    url: 'https://image-gallery.nuxt.dev/',
-    name: 'Nuxt Image Gallery',
-    description: 'A beautiful, full-stack image gallery application built with Nuxt on the edge',
+    url: 'https://phoebe.lsgbin.com/',
+    name: 'Phoebe Gallery',
+    description: 'The Gallery of Phoebe, for my girl.',
     defaultLocale: 'en',
     indexable: true,
     env: 'production',
@@ -35,7 +35,7 @@ export default defineNuxtConfig({
     viewTransition: true
   },
 
-  compatibilityDate: '2024-07-30',
+  compatibilityDate: '2025-10-30',
 
   hub: {
     blob: true
