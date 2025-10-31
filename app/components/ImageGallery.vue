@@ -67,9 +67,9 @@ async function clearSession () {
         <template #description>
           <div class="flex gap-x-4 items-center">
             <p class="bottom-menu-description text-sm sm:text-base leading-tight sm:leading-normal">
-              Media Gallery template
+              Phoebe Gallery
             </p>
-            <NuxtLink to="https://github.com/Flosciante/nuxt-image-gallery" target="blank" class="flex items-center">
+            <NuxtLink to="https://github.com/timetetng/my-phoebe-gallery" target="blank" class="flex items-center">
               <UIcon name="i-simple-icons-github" class="w-5 h-5" />
             </NuxtLink>
           </div>
@@ -101,10 +101,10 @@ async function clearSession () {
         </div>
         <div v-else class="text-2xl text-white flex flex-col gap-y-4 items-center justify-center h-full w-full pb-8">
           <h1 class="font-medium text-5xl">
-            Welcome to image gallery
+            欢迎来到 Phoebe 的图片库
           </h1>
           <p class="text-gray-400">
-            You must be logged in to start uploading images
+            请登录后开始上传图片
           </p>
         </div>
 
