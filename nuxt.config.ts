@@ -35,7 +35,11 @@ export default defineNuxtConfig({
     viewTransition: true
   },
 
+<<<<<<< HEAD
   compatibilityDate: '2025-10-30',
+=======
+  compatibilityDate: '2024-07-30',
+>>>>>>> 84c4a67a23cbfd75c9ac34af4cbc79f1a1a63287
 
   hub: {
     blob: true
