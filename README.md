@@ -1,79 +1,156 @@
-# NuxtHub Image Gallery Starter Template
+# 🌸 Phoebe Gallery
 
-This starter lets you get started with [NuxtHub Blob](https://hub.nuxt.com/docs/storage/blob) in seconds.
+> **欢迎来到菲比的专属图片库** 💖
+> 
+> 一个专门为菲比宝宝制作的精美图库网站，记录和展示最美的瞬间
 
-[![Deploy to NuxtHub](https://hub.nuxt.com/button.svg)](https://admin.hub.nuxt.com/new?template=image-gallery)
+## ✨ 项目特色
 
-https://github.com/Flosciante/nuxt-image-gallery/assets/904724/6e2bafdf-f5a0-42cf-b1f8-1d11c6ec919f
+- 🖼️ **精美图库展示** - 专门为菲比设计的优雅图像画廊界面
+- 🌈 **滤镜效果** - 多种滤镜让每张照片都更加迷人
+- ☁️ **云端存储** - 基于NuxtHub的安全云存储
+- 📱 **响应式设计** - 完美适配手机、平板、电脑各种设备
+- 🔒 **安全认证** - 管理员密码保护，只属于菲比的小秘密
+- 🎠 **轮播展示** - 自定义轮播组件，优雅浏览照片
+- ✨ **动画过渡** - 流畅的视图过渡动画效果
 
-## Features
+## 🚀 技术栈
 
-- 📷 Image upload and display with [`hubBlob()`](http://hub.nuxt.com/docs/storage/blob)
-- 🖼️ Image Filters: Apply a variety of filters to your images.
-- 💾 Saving: Save your images with applied filters.
-- 🌐 Cloud Storage: Blob powered by NuxtHub (cloudflare R2).
-- 🎠 Custom Carousel: Includes a custom carousel component that can be adapted for in-house use.
-- 🏃🏻 [View transition API](https://developer.chrome.com/docs/web-platform/view-transitions) The View Transitions API provides a mechanism for easily creating animated transitions between different DOM states while also updating the DOM contents in a single step.
-- 🔑 [Nuxt Auth Utils](https://github.com/Atinux/nuxt-auth-utils) Minimalist Authentication module for Nuxt exposing Vue composables and server utils.
+### 前端框架
+- **Nuxt 4** - 全栈Vue.js框架
+- **Vue 3** - 现代化前端框架
+- **TypeScript** - 类型安全的开发体验
 
-## Stack
+### UI与样式
+- **NuxtUI v3** - 现代化UI组件库
+- **Tailwind CSS v4** - 实用优先的CSS框架
+- **Nuxt Fonts** - 字体优化配置
 
-- [NuxtHub](https://hub.nuxt.com) - A Nuxt toolkit to build fullstack applications on the edge
-- [NuxtUI v3](https://ui.nuxt.com/getting-started) - A UI library for modern web applications using Radix Vue and Tailwind CSS v4 under the hood
-- [Nuxt Fonts](https://github.com/nuxt/fonts) - Plug-and-play custom web font optimization and configuration for Nuxt apps.
-- [VueUse](https://github.com/antfu/vueuse) - Collection of useful composition APIs
-- [ESLint](https://eslint.org/) with [@nuxt/eslint-config](https://github.com/nuxt/eslint), single quotes, no semi
-- [TypeScript](https://www.typescriptlang.org/)
+### 存储与后端
+- **NuxtHub Blob** - 云端图像存储
+- **Cloudflare R2** - 可靠的云存储服务
+- **Nuxt Auth Utils** - 轻量级认证系统
 
-## Setup
+### 开发工具
+- **ESLint** - 代码质量检查
+- **VueUse** - Vue组合式工具库
+- **Vitest** - 单元测试框架
 
-1. Clone this repository to your local machine.
-2. Install dependencies using the command `pnpm install` or your favorite package manager.
-3. Run the application with the command `pnpm dev` or your favorite package manager.
+## 🛠️ 本地开发
 
-> If you don't have pnpm installed, run: `corepack enable pnpm`
+### 环境要求
+- Node.js 18+
+- pnpm 包管理器
 
-## Environment Variables
+### 快速开始
 
-- `NUXT_ADMIN_PASSWORD` - A password to access the admin panel and upload images, will default to `admin` if not provided.
-- `NUXT_SESSION_PASSWORD` - A secret key for session encryption used by [nuxt-auth-utils](https://github.com/Atinux/nuxt-auth-utils), will be generated automatically if not provided in development mode.
+1. **克隆项目**
+```bash
+git clone https://github.com/timetetng/my-phoebe-gallery.git
+cd my-phoebe-gallery
+```
 
-## Development
+2. **安装依赖**
+```bash
+pnpm install
+```
 
+3. **环境配置**
+```bash
+cp .env.example .env
+# 编辑 .env 文件设置管理员密码
+```
+
+4. **启动开发服务器**
 ```bash
 pnpm dev
 ```
 
-### Remote Storage
+5. **访问网站**
+打开浏览器访问 http://localhost:3000
 
-Once you deployed your project, you can connect to your remote database locally running:
+### 远程存储连接
 
+连接到远程数据库进行本地开发：
 ```bash
 pnpm dev --remote
 ```
 
-### Deploy
+## 🔧 环境变量
 
-You can deploy this project on your Cloudflare account for free and with zero configuration using [NuxtHub](https://hub.nuxt.com).
+| 变量名 | 描述 | 默认值 |
+|--------|------|--------|
+| `NUXT_ADMIN_PASSWORD` | 管理员密码，用于访问管理面板 | `admin` |
+| `NUXT_SESSION_PASSWORD` | 会话加密密钥 | 自动生成 |
 
+## 🌐 部署
+
+### NuxtHub 部署（推荐）
+
+使用NuxtHub免费部署到Cloudflare：
 ```bash
 npx nuxthub deploy
 ```
 
-It's also possible to leverage Cloudflare Pages CI for deploying, learn more about the different options on https://hub.nuxt.com/docs/getting-started/deploy
+### 其他部署选项
 
-Learn more about remote storage on https://hub.nuxt.com/docs/getting-started/remote-storage
+- **Cloudflare Pages** - CI/CD自动部署
+- **Vercel** - 一键部署
+- **Netlify** - 静态站点托管
 
-## Template Starter
+详细的部署说明请查看 [NuxtHub部署文档](https://hub.nuxt.com/docs/getting-started/deploy)
 
-This project is a template starter provided by NuxtHub. It's designed to help kickstart your NuxtHub files project.
+## 📁 项目结构
 
-Check out the [deployment documentation](https://hub.nuxt.com/docs/getting-started/deploy) for more information.
+```
+my-phoebe-gallery/
+├── app/                    # 页面组件
+├── components/             # Vue组件
+├── server/                 # 服务器端API
+├── public/                 # 静态资源
+├── types/                  # TypeScript类型定义
+├── nuxt.config.ts         # Nuxt配置
+├── package.json           # 项目依赖
+└── README.md              # 项目文档
+```
 
-## Contribution
+## 💝 关于这个项目
 
-Contributions are welcome! Feel free to open an issue to report a bug or submit a feature request via a pull request.
+这个图库网站是专为菲比宝宝精心制作的礼物 ✨
 
-## Credits
+从项目的每个细节都能感受到满满的爱意：
+- 精心设计的UI界面，让浏览成为一种享受
+- 多样的滤镜效果，让每张照片都展现不同的美
+- 优雅的轮播展示，流畅的动画过渡
+- 安全的云端存储，守护每一份珍贵回忆
 
-Thanks to [Atinux](https://github.com/Atinux) for the contributions and advice provided.
+**"The Gallery of Phoebe, for my girl."** - 这不仅仅是一个图库，更是爱的见证。
+
+## 🤝 贡献指南
+
+欢迎为项目贡献代码或提出建议！
+
+1. Fork 项目
+2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 开启 Pull Request
+
+## 📝 许可证
+
+本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情
+
+## 🙏 致谢
+
+感谢所有为这个项目贡献代码和创意的人们 ❤️
+
+特别感谢：
+- [Nuxt Team](https://nuxt.com) - 提供了优秀的全栈框架
+- [NuxtHub](https://hub.nuxt.com) - 简化了部署流程
+- 所有开源项目的维护者
+
+---
+
+**Made with 💖 for Phoebe by 行简**
+
+*愿这个小小的图库，能够装下我们最美好的回忆* ✨
