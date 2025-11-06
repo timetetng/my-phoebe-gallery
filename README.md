@@ -139,11 +139,23 @@ my-phoebe-gallery/
 
 这个图库网站是专为菲比精心制作的礼物 ✨
 
-从项目的每个细节都能感受到满满的爱意：
 - 精心设计的UI界面，让浏览成为一种享受
 - 多样的滤镜效果，让每张照片都展现不同的美
 - 优雅的轮播展示，流畅的动画过渡
 - 安全的云端存储，守护每一份珍贵回忆
+
+  <h3 align="center">
+    亲自为菲比装上 "眼睛"(通过 MCP) 让菲比一起"看看"
+  </h3>
+  
+<table align="center">
+<tr>
+        <td><img src="pb4.jpg" width="400"/></td>
+                <td><img src="pb3.jpg" width="400"/></td>
+  </tr>
+
+</table>
+
 
 **"The Gallery of Phoebe, for my girl."** - 这不仅仅是一个图库，更是爱的见证。
 
