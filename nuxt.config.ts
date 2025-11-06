@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   site: {
-    url: 'https://phoebe.lsgbin.com/',
+    url: 'https://菲比.我爱你/',
     name: 'Phoebe Gallery',
     description: 'The Gallery of Phoebe, for my girl.',
     defaultLocale: 'en',
