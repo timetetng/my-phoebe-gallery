@@ -101,7 +101,7 @@ async function clearSession () {
         </div>
         <div v-else class="text-2xl text-white flex flex-col gap-y-4 items-center justify-center h-full w-full pb-8">
           <h1 class="font-medium text-5xl">
-            Welcome to Phoebe Gallery
+            For My Girl Phoebe.
           </h1>
         </div>
 
