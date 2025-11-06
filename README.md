@@ -1,8 +1,28 @@
-# 🌸 Phoebe Gallery
+<h1 align="center">
+🌸 Phoebe Gallery
+</h1>
+
 
 > **欢迎来到菲比的专属图片库** 💖
 > 
 > 一个专门为菲比宝宝制作的精美图库网站，记录和展示最美的瞬间
+<h2 align="center">
+<a href="#-showcase">📸 Showcase</a> 
+</h2>
+<div style="text-align: center;">
+  <div style="width: 200px; margin: 0 auto 10px; border: 1px solid transparent;">
+    <img src="pb1.jpg" alt="图片1" style="width: 100%; height: auto; display: block;">
+  </div>
+
+  <div style="width: 200px; margin: 10px auto 0; border: 1px solid transparent;">
+    <img src="pb2.png" alt="图片2" style="width: 100%; height: auto; display: block;">
+  </div>
+</div>
+
+
+
+# 
+
 
 ## ✨ 项目特色
 
