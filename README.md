@@ -2,11 +2,11 @@
 🌸 Phoebe Gallery
 </h1>
 
-> **欢迎来到菲比的专属图片库** 💖
+> **欢迎来到菲比宝宝的专属图片库** 💖
 > 
 > 一个专门为菲比制作的图库网站，定格那一瞬间可爱的笑容
 >
-> 专属域名:💖 https://菲比.我爱你
+> 专属域名:💖 https://菲比。我爱你
 <h2 align="center">
 <a href="#-showcase">📸 Showcase</a> 
 </h2>
@@ -23,7 +23,6 @@
 
 
 # 
-
 
 ## ✨ 项目特色
 
@@ -157,7 +156,7 @@ my-phoebe-gallery/
 </table>
 
 
-**"The Gallery of Phoebe, for my girl."** - 这不仅仅是一个图库，更是爱的见证。
+**"The Gallery of Phoebe, for my sweet girl."** - 这不仅仅是一个图库，更是爱的见证。
 
 ## 🤝 贡献指南
 
@@ -187,4 +186,4 @@ my-phoebe-gallery/
 
 **Made with 💖 for Phoebe by 行简**
 
-*愿这个小小的图库，能够装下我们最美好的回忆* ✨
+*菲比宝宝，我会永远守护你可爱的笑容* ✨
